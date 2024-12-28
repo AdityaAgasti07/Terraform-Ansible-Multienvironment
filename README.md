@@ -334,8 +334,6 @@ After provisioning, you can SSH into the EC2 instances using the generated `devo
 ssh -i devops-key ubuntu@<your-ec2-ip>
 ```
 
-![image9](images/image9.png)
-
 ---
 
 > Terraform steps done ,now going to setup with ansible
@@ -623,9 +621,6 @@ Now that your inventory files are updated, you can reference them in your **Ansi
 ansible-playbook -i inventories/dev install_nginx_playbook.yml
 ```
 
-![image10](images/image10.png)
-
-
 2. For **stg** inventory :
     
 
@@ -646,7 +641,7 @@ This will execute the playbook using the updated **all(dev,stg,prod)** inventory
 
 ### **Step 7: Varify the all servers whether html page is visible or not (for all inventory like : dev,stg,prod):**
 
-![image11](images/image11.png)
+![Screenshot 2024-12-24 175627](https://github.com/user-attachments/assets/e4d21125-c6b5-47aa-abad-9a865a4c291b)
 
 ---
 
@@ -728,8 +723,6 @@ To destroy the infrastructure, follow these simple steps:
     
 
 This is the final step to ensure that you have a well-managed infrastructure setup that can be recreated anytime using Terraform and Ansible.
-
-![image12](images/image12.png)
 
 ---
 
