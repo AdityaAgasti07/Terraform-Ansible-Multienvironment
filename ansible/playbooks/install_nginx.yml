@@ -1,0 +1,6 @@
+- name: Install Nginx using Roles
+  hosts: dev_servers,prd_servers,stg_servers # Ensure this matches the group name in the inventory file
+  become: yes
+  roles:
+    - nginx-role
+
