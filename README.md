@@ -68,9 +68,6 @@ Follow these steps to install Terraform on Ubuntu:
     terraform --version  
     ```
     
-
-![image1](images/image1.png)
-
 ---
 
 ## **b. Installing Ansible on Ubuntu**
@@ -100,9 +97,6 @@ Ansible simplifies configuration management and automation. To install it:
     ```bash
     ansible --version  
     ```
-    
-
-![image2](images/image2.png)
 
 ---
 
@@ -299,30 +293,24 @@ Run the following commands to initialize, plan, and apply your Terraform setup:
 
 a. `terraform init` : Initialize Terraform with the required providers and modules
 
-![image3](images/image3.png)
-
 b. `terraform plan` : Review the plan to apply changes
 
-![image4](images/image4.png)
-
-c. `terraform apply` : Apply the changes to provision infrastructur
-
-![image5](images/image5.png)
+c. `terraform apply` : Apply the changes to provision infrastructure
 
 > You can see below that all instance , buckets ,dynamodb are running or created , which is created through Terraform :
 
 1. Instances :
-    
-    ![image6](images/image6.png)
+
+![Screenshot 2024-12-18 123703](https://github.com/user-attachments/assets/6034bbcb-5190-48d5-bd4a-0044d309af64)
+
     
 2. Buckets :
+
+![Screenshot 2024-12-18 123745](https://github.com/user-attachments/assets/f5b7a905-5579-48ce-8235-6a3bd7d7f20c)
     
-    ![image7](images/image7.png)
+4. DynamoDb tables:
     
-3. DynamoDb tables:
-    
-    ![image8](images/image8.png)
-    
+![Screenshot 2024-12-18 123828](https://github.com/user-attachments/assets/70540ec2-a63d-4791-900d-f84865c1bc7a)
 
 ---
 
